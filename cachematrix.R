@@ -1,7 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
+
 makeCacheMatrix <- function(x = matrix()) {
   cachedInv <- NULL ## initialize inverse
   
@@ -56,5 +53,3 @@ cacheSolve <- function(x=makeCacheMatrix(1:4, nrow=2, ncol=2), ...) {
   message("Setting the value of inverse to:") 
   x$setInverse(calculatedInverse)
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
